@@ -1,0 +1,19 @@
+/*
+Theme Name: Sisterhood of the Unbuttoning Pants
+Theme URI: 
+Description: Custom Sisterhood of the Unbuttoning Pants Theme for Wordpress - child of Thematic
+Author: Charlie Hoey
+Author URI: http://charliehoey.com
+Template: thematic
+Version: 1.0
+Tags: Thematic
+*/
+
+/* Reset browser defaults */
+@import url("../thematic/library/styles/reset.css");
+
+/* Apply basic typography styles */
+@import url("../thematic/library/styles/typography.css");
+
+/* Prepare theme for plugins */
+@import url("../thematic/library/styles/plugins.css");

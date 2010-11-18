@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Unbuttoning';
+	src: url('files/unbuttoning-webfont.eot');
+	src: local('☺'), url('files/unbuttoning-webfont.woff') format('woff'), url('files/unbuttoning-webfont.ttf') format('truetype'), url('files/unbuttoning-webfont.svg#webfontwsxnob7K') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Unbuttoning';
+	src: url('files/unbuttoningitalic-webfont.eot');
+	src: local('☺'), url('files/unbuttoningitalic-webfont.woff') format('woff'), url('files/unbuttoningitalic-webfont.ttf') format('truetype'), url('files/unbuttoningitalic-webfont.svg#webfontkwtJUfjh') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Unbuttoning';
+	src: url('files/unbuttoningbolditalic-webfont.eot');
+	src: local('☺'), url('files/unbuttoningbolditalic-webfont.woff') format('woff'), url('files/unbuttoningbolditalic-webfont.ttf') format('truetype'), url('files/unbuttoningbolditalic-webfont.svg#webfontOVtnFyjb') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Unbuttoning';
+	src: url('files/unbuttoningbold-webfont.eot');
+	src: local('☺'), url('files/unbuttoningbold-webfont.woff') format('woff'), url('files/unbuttoningbold-webfont.ttf') format('truetype'), url('files/unbuttoningbold-webfont.svg#webfontUIiIbhSR') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+

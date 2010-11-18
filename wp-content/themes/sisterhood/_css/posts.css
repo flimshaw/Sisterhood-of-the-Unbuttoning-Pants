@@ -1,0 +1,343 @@
+/*
+
+Genereal
+
+*/
+
+#posts {
+	margin-top: 30px;
+}
+
+#posts p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	color: #606060;
+	line-height: 21px;
+}
+
+#posts .date {
+	font-family: "Verdana", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #6d6d6d;
+}
+
+#posts .title {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	color: #000000;
+}
+
+#posts .tagline {
+	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color: #eb1680;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+#posts img {
+	margin-top: 9px;
+	position: relative;
+}
+
+#posts h4 {
+	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #eb1680;
+	background: #fff716;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#posts .ataglance li {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+#posts .ataglance li strong {
+	font-family: "Verdana", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #eb1680;
+}
+
+#posts .readmore {
+	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #ffffff;
+	width: 400px;
+	display: block;
+	background: #00bdf2;
+	text-indent: 67px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	background-image: url(../_images/link_readmore.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#posts .contactinfo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Verdana", Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	line-height: 11px;
+}
+
+.postbody p {
+	margin-bottom: 15px
+}
+
+.post {
+	margin-top: 15px
+}
+
+/*
+
+Ratings
+
+*/
+
+#posts .rating{
+	color: #000000;
+	width: 60px;
+	height: 60px;
+	padding-left: 0px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	text-indent: -9999px;
+	background-image: url(../_images/ratings.png);
+}
+
+#posts .r1{
+	background-position: 0px 0px;
+}
+
+#posts .r2{
+	background-position: 0px -60px;
+}
+
+#posts .r3{
+	background-position: 0px -120px;
+}
+
+#posts .r4{
+	background-position: 0px -180px;
+}
+
+#posts .r5{
+	background-position: 0px -240px;
+}
+
+/*
+
+Icons
+
+*/
+
+#posts .icon {
+	width: 67px;
+	padding-left: 0px;
+	margin-top: -40px;
+	margin-bottom: -30px;
+	position: absolute;
+	z-index: 2;
+}
+
+.pantsstance .icon {
+	height: 128px;
+	background-image: url(../_images/icon-pantsstance.jpg);
+	background-repeat: no-repeat;
+}
+
+.pantsrants .icon {
+	height: 78px;
+	background-image: url(../_images/icon-pantsrants.jpg);
+	background-repeat: no-repeat;
+}
+
+/*
+
+Share
+
+*/
+
+#share {
+	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #eb1680;
+	padding-left: 15px;
+	padding-top: -20px;
+	padding-bottom: -20px;
+	margin-bottom: 10px;
+}
+
+#share img {
+	margin-left: 10px;
+}
+
+/*
+
+Comments
+
+*/
+
+#comments {
+	padding-top: 10px;
+	border-bottom: solid 1px #dee1e5;
+}
+
+#comments p {
+	padding-left: 15px;
+	font-family: "Verdana", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 18px;
+}
+
+#comments .count {
+	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #eb1680;
+	float: left;
+	display: block;
+	padding-bottom: 12px;
+}
+
+#comments .postcomment {
+	font-family: "Verdana", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	float: right;
+	display: block;
+}
+
+#comments .comment{
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: dotted 1px #dee1e5;
+}
+
+#comments .comment-meta{
+	color: #959595;
+}
+
+#comments .flagcomment {
+	font-family: "Verdana", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	float: right;
+	display: block;
+}
+
+
+
+
+/*
+
+Preview Posts vs Full posts
+
+*/
+
+.preview p, .preview h4, .preview .ataglance{
+	padding-left: 67px;
+}
+
+.preview .rating {	
+	margin-top: -40px;
+	margin-bottom: -30px;
+}
+
+.full.pantsreviews .postheader p{
+	padding-left: 67px;
+}
+
+.full .rating{
+	margin-top: -90px;
+	margin-bottom: -30px;
+}
+
+.full p, .full h4, .full .ataglance{
+	padding-left: 15px;
+}
+
+#main-full #posts .readmore {
+	width: 732px;
+	text-indent: 15px;
+}
+
+/*
+
+Results
+
+*/
+
+/*
+
+#posts .full p{
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+#posts .full h4 {
+	padding-left: 15px;
+	padding-bottom: 0px;
+}
+
+#posts .full ul {
+	padding-left: 15px;
+	padding-bottom: 0px;
+}
+
+#posts .full .date {
+	padding-left: 67px;
+	padding-bottom: 0px;
+}
+
+#posts .full .title {
+	padding-left: 67px;
+	padding-bottom: 0px;
+}
+
+#posts .full .tagline {
+	padding-left: 67px;
+	padding-bottom: 0px;
+}
+
+#posts .full .contactinfo {
+	padding-left: 67px;
+	padding-bottom: 0px;
+}
+
+#posts .full .rating {
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+
+/*
+
+Category Specific Tweaks
+
+*/
+
+.pantsstance .tagline {
+	margin-bottom: 20px;
+}
+
+.post.full.pantsstance {
+	margin-top: -30px;
+	padding-top: 190px;
+	background-image: url(../_images/header-pantsstance.jpg);
+	background-repeat: no-repeat;
+}
