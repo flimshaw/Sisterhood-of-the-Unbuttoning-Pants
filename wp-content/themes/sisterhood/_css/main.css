@@ -9,7 +9,7 @@ Generaal
 	padding: 0px;
 }
 
-#container {
+#wrapper > #container {
 	margin: 0 auto;
 	width: 994px;
 }
@@ -94,7 +94,7 @@ Navigation
 	margin-right: 0px;
 }
 
-#navigation li a:hover {
+#navigation li a:hover, #navigation li.current a {
 	background-position: 0px -18px;
 }
 
@@ -162,7 +162,7 @@ Search
 
 */
 
-#search {
+#search-2 {
 	background: #dee1e5;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -170,7 +170,7 @@ Search
 	padding-bottom: 40px;
 }
 
-#search h3{
+#search-2 h3{
 	width: 200px;
 	height: 22px;
 	text-indent: -9999px;
@@ -178,17 +178,17 @@ Search
 	margin-bottom: 5px;
 }
 
-#search p {
+#search-2 p {
 	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 	color: #6d6d6d;
 	font-style: italic;
 }
 
-#search form {
+#search-2 form {
 	margin-top: 17px;
 }
 
-#search .textfield {
+#search-2 #s {
 	width: 245px;
 	height: 30px;
 	margin-right: 5px;
@@ -198,11 +198,16 @@ Search
 	font-style: italic;
 }
 
-#search .submit {
+#search-2 #searchsubmit {
 	width: 32px;
 	height: 32px;
 	vertical-align: middle;
 	margin-top: -2px;
+	background: 0;
+	background-image:url(../_images/button-submit.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	border: 0;
 }
 
 /*
@@ -211,27 +216,27 @@ Archive
 
 */
 
-#archive {
+#archives-2 {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
 
-#archive h3{
+#archives-2 h3{
 	width: 212px;
 	height: 29px;
 	text-indent: -9999px;
 	background-image: url(../_images/header-archive.jpg);
 }
 
-#archive p {
+#archives-2 p {
 	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 	color: #6d6d6d;
 	font-style: italic;
 }
 
-#archive ul {
+#archives-2 ul {
 	background-image: url(../_images/ul-dots.jpg);
 	background-repeat: no-repeat;
 	margin-left: -10px;
@@ -241,7 +246,7 @@ Archive
 	border-bottom: solid 1px #000000;	
 }
 
-#archive li {
+#archives-2 li {
 	font-family: "Verdana", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	padding-left: 12px;

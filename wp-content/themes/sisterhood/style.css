@@ -8,12 +8,3 @@ Template: thematic
 Version: 1.0
 Tags: Thematic
 */
-
-/* Reset browser defaults */
-@import url("../thematic/library/styles/reset.css");
-
-/* Apply basic typography styles */
-@import url("../thematic/library/styles/typography.css");
-
-/* Prepare theme for plugins */
-@import url("../thematic/library/styles/plugins.css");

@@ -4,9 +4,7 @@ Genereal
 
 */
 
-#posts {
-	margin-top: 30px;
-}
+
 
 #posts p {
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -26,6 +24,9 @@ Genereal
 	font-size: 26px;
 	color: #000000;
 }
+
+#posts .title a { color: #000; }
+#posts .title a:hover { text-decoration: underline; }
 
 #posts .tagline {
 	font-family: "Unbuttoning", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
@@ -73,13 +74,14 @@ Genereal
 	display: block;
 	background: #00bdf2;
 	text-indent: 67px;
-	padding-top: 2px;
+	padding-top: 0px;
 	padding-bottom: 2px;
 	margin-top: 25px;
 	margin-bottom: 30px;
 	background-image: url(../_images/link_readmore.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
+	height: 20px;
 }
 
 #posts .contactinfo {
